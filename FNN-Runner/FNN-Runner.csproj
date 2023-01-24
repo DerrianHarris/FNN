@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <RootNamespace>FNN_Runner</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FNN-Model\FNN-Model.csproj" />
+      <ProjectReference Include="..\FNN.csproj" />
+    </ItemGroup>
+
+</Project>
